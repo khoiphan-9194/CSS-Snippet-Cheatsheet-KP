@@ -223,7 +223,11 @@ footer {
 @media screen and (max-width: 500px) {
   /* on tablets, set columns to only be 50% of the width and not grow */
 
-
+header h1
+{
+  font-size: 20px;
+  color: var(--neon-text-color);
+}
 
   .column-card-main {
     flex: 1 0 320px;
