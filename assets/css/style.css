@@ -5,7 +5,8 @@
   --gin: #e0eae4;
   --heliotrope: #debddf;
   --neon-text-color: #f40;
-  --neon-border-color: #08f;
+  --neon-border-color1: #08f;
+  --neon-border-color2: yellow;
 }
 
 /* set content highlight color and background */
@@ -295,12 +296,12 @@ footer {
 }
 
 .page-title ::-moz-selection {
-  background-color: var(--neon-border-color);
+  background-color: var(--neon-border-color2);
   color: var(--neon-text-color);
 }
 
 .page-title ::selection {
-  background-color: var(--neon-border-color);
+  background-color: var(--neon-border-color1);
   color: var(--neon-text-color);
 }
 
@@ -328,10 +329,10 @@ footer {
       box-shadow:
           0 0 .5rem #fff,
           inset 0 0 .5rem #fff,
-          0 0 2rem var(--neon-border-color),
-          inset 0 0 2rem var(--neon-border-color),
-          0 0 4rem var(--neon-border-color),
-          inset 0 0 4rem var(--neon-border-color);        
+          0 0 2rem var(--neon-border-color1),
+          inset 0 0 2rem var(--neon-border-color2),
+          0 0 4rem var(--neon-border-color1),
+          inset 0 0 4rem var(--neon-border-color2);        
   }
   
   20%, 24%, 55% {        
