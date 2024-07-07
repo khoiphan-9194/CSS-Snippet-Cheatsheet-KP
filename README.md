@@ -2,9 +2,13 @@
 
 In this activity, you will work with a group to build a webpage that will hold a collection of CSS snippets. What better way to learn CSS than to build a knowledge base of CSS?
 
+- CSS Wireframe: the application was built based on this wireframe
+![On a desktop, the application was built based on the wireframe.](./Images/wireframe-form-completed.png)
 
 LINK TO DEPLOYED APPLICATION:
 [CLICK ME TO SEE THE CSS APPLICATION](https://khoiphan-9194.github.io/CSS-Snippet-Cheatsheet-KP/)
+
+
 
 ## Instructions
 
