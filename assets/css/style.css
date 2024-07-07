@@ -177,6 +177,13 @@ footer {
 @media screen and (max-width: 768px) {
   /* on tablets, set columns to only be 50% of the width and not grow */
 
+  header h1  {
+    font-size: 25px;
+    color: #fff;
+    
+  
+  }
+
   .column-card-main {
     flex: 1 0 320px;
     background: linear-gradient(89.7deg, rgb(0, 0, 0) -10.7%, rgb(53, 92, 125) 88.8%); 
