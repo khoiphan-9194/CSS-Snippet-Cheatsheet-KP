@@ -2,6 +2,10 @@
 
 In this activity, you will work with a group to build a webpage that will hold a collection of CSS snippets. What better way to learn CSS than to build a knowledge base of CSS?
 
+
+LINK TO DEPLOYED APPLICATION:
+[CLICK ME TO SEE THE CSS APPLICATION](https://khoiphan-9194.github.io/CSS-Snippet-Cheatsheet-KP/)
+
 ## Instructions
 
 The completed application should meet the following criteria:
