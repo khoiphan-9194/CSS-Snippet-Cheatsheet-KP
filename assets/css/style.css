@@ -3,7 +3,7 @@
   --outer-space: #33393f;
   --bright-turquoise: #2aefcb;
   --gin: #e0eae4;
-  --heliotrope: #e866ec;
+  --heliotrope: #debddf;
   --neon-text-color: #f40;
   --neon-border-color: #08f;
 }
@@ -177,12 +177,6 @@ footer {
 @media screen and (max-width: 768px) {
   /* on tablets, set columns to only be 50% of the width and not grow */
 
-  header h1  {
-    font-size: 25px;
-    color: #fff;
-    
-  
-  }
 
   .column-card-main {
     flex: 1 0 320px;
@@ -224,6 +218,61 @@ footer {
 
 
 
+
+
+@media screen and (max-width: 500px) {
+  /* on tablets, set columns to only be 50% of the width and not grow */
+
+
+
+  .column-card-main {
+    flex: 1 0 320px;
+    background: linear-gradient(89.7deg, rgb(19, 82, 217) -10.7%, rgb(1, 11, 16) 88.8%); 
+  
+  
+
+   
+  
+  }
+
+  .code-block {
+    margin: 20px;
+    font-size: 15px;
+
+  }
+  /* select the last child to grow to full width if it has space to grow */
+  .column-card-main:last-child {
+    flex-grow: 1;
+  }
+
+  .card-detail .card-header {
+    border-radius: 82px;
+    transition: all 1.5s ease-in-out;
+            }               
+  
+  .card-detail:hover .card-header,
+  .column-card-main:hover {
+   box-shadow: inset 0px 0px 80px 
+  rgb(24, 24, 23), 0 0 15px 
+  rgb(51, 19, 168);
+  }
+  
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* .page-title  {
   font-size: 2.5rem;
   padding: 1rem 1.2rem;
@@ -232,7 +281,7 @@ footer {
 
 
 .page-title {
-  font-size: 6rem;
+  font-size: 4rem;
   font-weight: 200;
   font-style: italic;
   color: #fff;
